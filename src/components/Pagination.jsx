@@ -18,7 +18,6 @@ const Pagination = ({
             onClick={()=>setCurrPage(p)}
             className={`text-white text-bolder hover:bg-gray-500 p-2 m-2 rounded-md} ${currPage===p?'bg-gray-500':''} rounded-md`}
             >{p}</button>
-          
         ))
       }
     
